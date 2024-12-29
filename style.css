@@ -1,0 +1,213 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 40px;
+    font-size: 20px;
+    margin-right: 120px; /* Right margin set to 120px */
+    height: 85px;
+    align-items: center; /* Vertical align */
+    align-content: center; /* Vertical align */
+    position: sticky;
+    top: 0; /* Sticks to the top when scrolled to */
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional */
+    width: 100%;
+}
+
+.NavBar img{
+    width: 280px;
+    position: absolute;
+    left: 90px;
+    top:5px;
+}
+
+/* Heading */
+.heading{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    gap: 20px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.head1{
+    order: 1;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 140px;
+}
+.head2{
+    order: 2;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.imghead {
+    width: 100%;  /* Ensures the image takes up 100% of its container */
+    max-width: 800px;  /* Sets the maximum width of the image */
+    min-width: 170px;  /* Sets the minimum width of the image */
+    height: auto;  /* Keeps the aspect ratio of the image */
+}
+.head1 h1{
+    font-size: 70px;
+}
+.head1 p{
+    padding-top: 70px;
+    padding-top: 70px;
+    font-size: 35px;
+}
+
+/* First sub heading */
+.headSub1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    gap: 20px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.headSub1 img{
+    margin-left: 100px;
+    max-width: 700px;
+    min-width: 200px;
+    height: auto;
+    width: 100%;
+}
+
+/* Second sub heading */
+.headSub2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    gap: 20px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.headSub2 img{
+    width: 700px;
+}
+
+/* third sub heading */
+.headSub3{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    gap: 50px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.headSub3 img{
+    margin-left: 100px;
+    width: 800px;
+}
+
+/* Fourth sub heading */
+.headSub4{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    gap: 200px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.headSub4 img{
+    width: 700px;
+}
+
+/* Fifth sub heading */
+.headSub5{
+    margin-top: 90px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-grow:column ; 
+    gap: 70px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+.headSub5 img{
+    width: 1300px;
+}
+
+/* Recommendation */
+.recommendation{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.recommend{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.Refered{
+display: grid;
+/* grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr; */
+grid-template-columns: 1fr 1fr 1fr ;
+column-gap: 8px;
+row-gap: 15px; 
+justify-items: center;
+margin-bottom: 30px;
+}
+.hiddenpara{
+    text-align: center;
+}
+
+/* sixth sub heading */
+.headSub6{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-grow:column ; 
+    gap: 20px;
+    align-items: center;/* vertical align */
+    align-content: center;/* vertical align */
+}
+
+/*footer */
+.footer{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow:row ; 
+    justify-content: center;
+    gap: 130px;
+}
+.foot1{
+    line-height: 40px;
+}
+.foot2{
+    line-height: 40px;
+}
+.foot3{
+    line-height: 40px;
+}
+.foot4{
+    line-height: 40px;
+}
+.foot5{
+    line-height: 40px;
+}
+#language-picker{
+    width: 210px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.foot6>.logo>img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
